@@ -1,0 +1,23 @@
+{
+  "name": "prettier-config",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "prettier": "prettier . --check",
+    "prettier:fix": "prettier . --write"
+  },
+  "peerDependencies": {
+    "prettier": "^3.8.0"
+  },
+  "prettier": "./prettier.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyintometa/prettier-config.git"
+  },
+  "license": "ISC",
+  "exports": {
+    ".": {
+      "default": "./pretter.config.js"
+    }
+  }
+}
