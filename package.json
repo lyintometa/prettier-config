@@ -1,5 +1,5 @@
 {
-  "name": "prettier-config",
+  "name": "@lyintometa/prettier-config",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -19,8 +19,6 @@
   },
   "license": "ISC",
   "exports": {
-    ".": {
-      "default": "./pretter.config.js"
-    }
+    ".": "./prettier.config.js"
   }
 }
